@@ -47,16 +47,44 @@ li {
     padding-right: 5px;
 }
 
-.botoes {
-display: flex;
+.botao1{
+    display: inline-flex;
 }
 
-.botoes li a {
-    display: block;
+.botao1 a{
+    border: 3px solid #1d487c;
+    border-radius: 40px;
     padding: 10px;
     color: black;
     font-family:Tahoma;
-    text-align: center;
+    text-align: center; 
+}
+
+.botao1:hover {
+    background-color: #1d487c;
+    border: 1px solid #1d487c;
+    border-radius: 50px;
+}
+
+
+.botao2 {
+    display: inline-flex;
+
+}
+
+.botao2 a{
+    border: 3px solid #1d487c;
+    border-radius: 40px;
+    padding: 10px;
+    color: black;
+    font-family:Tahoma;
+    text-align: center; 
+}
+
+.botao2:hover {
+    background-color: #1d487c;
+    border: 1px solid #1d487c;
+    border-radius: 50px;
 }
 
 .titulo {
@@ -65,16 +93,23 @@ font-size: 2.5rem;
 text-align: center;
 }
 
+.img {
+    display: flex;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
     margin: 30px;
     padding: 10px;
     background: #f3f4f62c;
+    width: 375px;
+    height: 325px;
+    border-radius: 32px;
 }
 
 .flex-item {
-
+ align-items: center;
 }
 
 /*Sobre_a_empresa*/
