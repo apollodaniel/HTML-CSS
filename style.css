@@ -7,9 +7,18 @@
 }
 
 .footer  {
-    margin: 10px;
-    padding: 10px;
+    color: #F3F4F6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 150px;
+    background-color: #242C36;
+    align-items: center;
 }
+
+.footer p{
+padding-left: 10px;    
+}
+
 
 
 a {
@@ -91,10 +100,6 @@ li {
 font-family: Impact;
 font-size: 2.5rem;
 text-align: center;
-}
-
-.img {
-    display: flex;
 }
 
 .flex-container {
