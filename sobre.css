@@ -1,0 +1,78 @@
+/*Sobre_a_empresa*/
+
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagens/wallpaper_sbt.jpg);
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F4F6;
+}
+
+.topo {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #242C36;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 0px;
+}
+
+.menu li a {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.propaganda {
+    width: 260px;
+    height: 540px;
+    background-image: url(imagens/propaganda\ 3.2.jpg);
+    margin: 20px;
+}
+
+.texto {
+    background-color: #9ba3b4;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*rodapé*/
+
+.footer  {
+    color: #F3F4F6;
+    padding: 1px;
+    background-color: #242C36;
+    align-items: center;
+    text-align: center;
+}
