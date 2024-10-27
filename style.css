@@ -45,14 +45,21 @@ li {
     padding-right: 5px;
 }
 
+.botoes  {
+justify-content: space-evenly;
+flex-wrap: nowrap;
+margin-top: 5px;
+}
+
 .botao1{
     display: inline-flex;
+    margin-left: 0px;
 }
 
 .botao1 a{
     border: 3px solid #071629;
     border-radius: 40px;
-    padding: 10px;
+    padding: 7px;
     color: white;
     font-family:Tahoma;
     text-align: center; 
@@ -65,13 +72,14 @@ li {
 
 .botao2 {
     display: inline-flex;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 .botao2 a{
     border: 3px solid #071629;
     border-radius: 40px;
-    padding: 10px;
+    padding: 7px;
     color: white;
     font-family:Tahoma;
     text-align: center; 
@@ -107,12 +115,38 @@ color: white;
 
 .flex-itens {
     background: #242C36;
-    width: 400px;
-    height: 340px;
+    max-width: 400px;
+    height: 370px;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
     border: 3px solid #071629;
+}
+
+@media screen  and (max-width: 450px) {
+
+    .fim {
+        padding-right: 32px;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .botao1 {
+      margin-right: 25px;
+    }
+
+    .botao1:hover {
+        background-color: #071629;
+        border-radius: 40px;
+    }
+
+    .botao2:hover {
+        background-color: #071629;
+        border-radius: 40px;
+    }
+    
 }
 
 

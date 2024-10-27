@@ -14,14 +14,17 @@ a {
     color: #F3F4F6;
 }
 
+.logo  {
+    color: #F3F4F6;
+    padding-left: 10px;
+}
+
 .topo {
     display: flex;
     position: sticky;
     top: 0;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
     background: #242C36;
     align-items: center;
 }
@@ -36,8 +39,11 @@ a {
 
 .menu li a {
     display: block;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.fim  {
+    display: block;
 }
 
 ul,
@@ -53,12 +59,38 @@ li {
 }
 
 .propaganda {
-    width: 260px;
-    height: 540px;
-    background-image: url(imagens/propaganda\ 3.2.jpg);
     margin: 20px;
+    background-position: center;
+    background-image: url(imagens/propaganda\ 3.2.jpg);
+    width: 240px;
+    height: 563px;
+    color: rgba(0, 0, 0, 0);
 }
 
+@media screen and (min-width: 1360px){
+    .menu li a {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen  and (max-width: 450px) {
+
+    .fim {
+        padding-right: 32px;
+    }
+
+    .topo {
+        justify-content: space-around;
+    }
+
+    .propaganda  {
+        background-image: url(imagens/propaganda\ 3p.jpg);
+        width: 288px;
+        height: 168px;
+    }
+}
 .texto {
     background-color: #9ba3b4;
     width: 900px;
