@@ -45,6 +45,11 @@ li {
     padding-right: 5px;
 }
 
+.nav li a:hover  {
+ text-decoration: underline;
+ color: #F3F4F6;
+}
+
 .botoes  {
 justify-content: space-evenly;
 flex-wrap: nowrap;
